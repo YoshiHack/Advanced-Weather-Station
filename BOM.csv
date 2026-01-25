@@ -23,3 +23,6 @@ E7,Capacitor kit (0.1uF and 10uF),1,Wiring,capacitor kit 0.1uF 10uF,Noise filter
 E8,Outdoor-rated multi-core cable (2–4 core),1,Wiring,outdoor cable 2 core 4 core,For wind and rain sensors,6,15
 F1,microSD card (32–128GB),1,Indoor Base,micro sd card 64gb,Buy reputable brand; many fakes on AE,6,15
 F2,5V power supply (Pi and ESP32),1,Indoor Base,5V 3A power supply raspberry pi,Stable power prevents crashes,6,12
+G1,PoE RTSP/ONVIF outdoor IP camera (1080p),1,Camera,poe onvif rtsp outdoor ip camera 1080p,H.264 required; must work without cloud account,35,80
+G2,PoE injector (802.3af),1,Camera,poe injector 802.3af,Only needed if switch is not PoE,8,15
+G3,Outdoor-rated Ethernet cable (Cat5e/Cat6),1,Camera,outdoor ethernet cat6 cable,UV-rated jacket for outdoor run,8,20
