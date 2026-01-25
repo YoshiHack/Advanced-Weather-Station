@@ -1,28 +1,29 @@
-Line,Item,Qty,Category,AliExpress_Search_Term,Notes,Est_Price_USD_Low,Est_Price_USD_High
-A1,ESP32 Dev Board (ESP32-WROOM-32),1,Compute/Control,ESP32 WROOM 32 dev board,Outdoor sensor node controller,4,6
-A2,Raspberry Pi Zero 2 W,1,Compute/Control,Raspberry Pi Zero 2 W,Indoor base station brain; AliExpress often sketchy or overpriced — buy official if possible,,
-B1,BME280 Temp/Humidity/Pressure sensor (I2C),1,Core Weather,BME280 I2C module,Main atmospheric sensor,2,4
-B2,Cup anemometer (reed switch),1,Wind,anemometer reed switch weather station,Wind speed pulses to ESP32,8,12
-B3,Wind vane (resistor ladder),1,Wind,wind vane direction sensor,Wind direction via resistor ladder,8,12
-B4,Tipping bucket rain gauge,1,Rain,tipping bucket rain gauge sensor,Rainfall pulses; total and rate calculated in software,8,12
-C1,PM2.5/PM10 sensor (PMS5003 or PMS7003),1,Air Quality,PMS5003 PMS7003 laser dust sensor,AQI from particulate; UART; avoid MQ gas sensors,15,22
-C2,UV sensor (VEML6075),1,UV,VEML6075 UVA UVB module,UV Index via I2C,4,7
-C3,Lightning sensor (AS3935),1,Lightning,AS3935 lightning sensor module,Lightning detection and distance estimate,8,12
-C4,Waterproof ground temperature probe (DS18B20),2,Ground Temp,DS18B20 waterproof sensor,1-Wire; one ground probe + one spare,4,8
-D1,Weatherproof enclosure (IP65/IP66 junction box),1,Outdoor Hardware,IP65 waterproof junction box,For ESP32 and sensor boards,10,15
-D2,Cable gland kit (PG7/PG9 mixed),1,Outdoor Hardware,PG7 PG9 cable gland kit,Seals cable entries,3,5
-D3,Radiation shield for temp/humidity sensor,1,Outdoor Hardware,weather station radiation shield,Shields BME280 from sun,8,15
-D4,Mast clamps or U-bolts,1,Outdoor Hardware,mast clamp U bolt,Mount sensors to pole or mast,4,10
-E1,JST-XH connector kit (optional),1,Wiring,JST XH connector kit,Clean and serviceable wiring,5,10
-E2,Dupont jumper wire kit,1,Wiring,dupont jumper wires kit,Prototyping and testing,3,5
-E3,Perfboard or proto PCB,2,Wiring,prototype perfboard,Mount breakout boards,4,8
-E4,Resistor assortment,1,Wiring,resistor kit assortment,General electronics needs,2,4
-E5,4.7k ohm resistors,1,Wiring,4.7k resistor,DS18B20 pull-up resistors,1,2
-E6,10k ohm resistors,1,Wiring,10k resistor,Wind vane divider and misc,1,2
-E7,Capacitor kit (0.1uF and 10uF),1,Wiring,capacitor kit 0.1uF 10uF,Noise filtering optional,2,5
-E8,Outdoor-rated multi-core cable (2–4 core),1,Wiring,outdoor cable 2 core 4 core,For wind and rain sensors,6,15
-F1,microSD card (32–128GB),1,Indoor Base,micro sd card 64gb,Buy reputable brand; many fakes on AE,6,15
-F2,5V power supply (Pi and ESP32),1,Indoor Base,5V 3A power supply raspberry pi,Stable power prevents crashes,6,12
-G1,PoE RTSP/ONVIF outdoor IP camera (1080p),1,Camera,poe onvif rtsp outdoor ip camera 1080p,H.264 required; must work without cloud account,35,80
-G2,PoE injector (802.3af),1,Camera,poe injector 802.3af,Only needed if switch is not PoE,8,15
-G3,Outdoor-rated Ethernet cable (Cat5e/Cat6),1,Camera,outdoor ethernet cat6 cable,UV-rated jacket for outdoor run,8,20
+Line,Item,Qty,Website,Unit_Cost_USD,Extended_Cost_USD,Running_Total_USD,Notes
+A1,ESP32 Dev Board (ESP32-WROOM-32),1,https://www.aliexpress.com,5.00,5.00,5.00,Outdoor sensor node controller
+A2,Raspberry Pi 4 Model B (4GB RAM),1,https://www.raspberrypi.com,55.00,55.00,60.00,Indoor base station (radar + camera + AI)
+A3,Power Supply for Pi 4 (USB-C 5V 3A),1,https://www.aliexpress.com,8.00,8.00,68.00,Stable power required
+B1,BME280 Temp/Humidity/Pressure Sensor,1,https://www.aliexpress.com,3.00,3.00,71.00,Main atmospheric sensor
+B2,Anemometer (reed switch),1,https://www.aliexpress.com,10.00,10.00,81.00,Wind speed
+B3,Wind Vane (resistor ladder),1,https://www.aliexpress.com,10.00,10.00,91.00,Wind direction
+B4,Tipping Bucket Rain Gauge,1,https://www.aliexpress.com,10.00,10.00,101.00,Rain total + rate
+C1,PMS5003 PM2.5/PM10 Sensor,1,https://www.aliexpress.com,20.00,20.00,121.00,AQI particulate sensor
+C2,VEML6075 UV Sensor,1,https://www.aliexpress.com,6.00,6.00,127.00,UV Index
+C3,AS3935 Lightning Sensor Module,1,https://www.aliexpress.com,10.00,10.00,137.00,Lightning detection
+C4,DS18B20 Waterproof Temp Probe,2,https://www.aliexpress.com,2.50,5.00,142.00,Ground + spare
+D1,IP65 Weatherproof Enclosure,1,https://www.aliexpress.com,12.00,12.00,154.00,Outdoor electronics box
+D2,Cable Gland Kit (PG7/PG9),1,https://www.aliexpress.com,4.00,4.00,158.00,Weather sealing
+D3,Radiation Shield for Temp Sensor,1,https://www.aliexpress.com,10.00,10.00,168.00,Shades BME280
+D4,Mast Clamps / U-Bolts,1,https://www.aliexpress.com,6.00,6.00,174.00,Mounting hardware
+E1,JST Connector Kit,1,https://www.aliexpress.com,8.00,8.00,182.00,Serviceable wiring
+E2,Dupont Jumper Wire Kit,1,https://www.aliexpress.com,4.00,4.00,186.00,Internal wiring
+E3,Perfboard / Proto PCB,2,https://www.aliexpress.com,3.00,6.00,192.00,Sensor mounting
+E4,Resistor Assortment Kit,1,https://www.aliexpress.com,3.00,3.00,195.00,General passives
+E5,4.7k Ohm Resistors,1,https://www.aliexpress.com,1.50,1.50,196.50,DS18B20 pull-up
+E6,10k Ohm Resistors,1,https://www.aliexpress.com,1.50,1.50,198.00,Wind vane divider
+E7,Capacitor Kit (0.1uF + 10uF),1,https://www.aliexpress.com,3.00,3.00,201.00,Noise suppression
+E8,Outdoor-Rated Multi-Core Cable,1,https://www.aliexpress.com,10.00,10.00,211.00,Sensor cabling
+F1,PoE RTSP/ONVIF Outdoor Camera (1080p),1,https://www.aliexpress.com,50.00,50.00,261.00,H.264 required, no cloud
+F2,PoE Injector (802.3af),1,https://www.aliexpress.com,12.00,12.00,273.00,If switch not PoE
+F3,Outdoor Ethernet Cable (Cat6),1,https://www.aliexpress.com,12.00,12.00,285.00,Camera run
+F4,MicroSD Card 64GB (Pi),1,https://www.aliexpress.com,8.00,8.00,293.00,OS + data
+
