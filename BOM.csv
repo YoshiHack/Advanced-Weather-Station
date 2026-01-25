@@ -1,0 +1,25 @@
+Line,Item,Qty,Category,AliExpress_Search_Term,Notes,Est_Price_USD_Low,Est_Price_USD_High
+A1,ESP32 Dev Board (ESP32-WROOM-32),1,Compute/Control,ESP32 WROOM 32 dev board,Outdoor sensor node controller,4,6
+A2,Raspberry Pi Zero 2 W,1,Compute/Control,Raspberry Pi Zero 2 W,Indoor base station brain; AliExpress often sketchy or overpriced — buy official if possible,,
+B1,BME280 Temp/Humidity/Pressure sensor (I2C),1,Core Weather,BME280 I2C module,Main atmospheric sensor,2,4
+B2,Cup anemometer (reed switch),1,Wind,anemometer reed switch weather station,Wind speed pulses to ESP32,8,12
+B3,Wind vane (resistor ladder),1,Wind,wind vane direction sensor,Wind direction via resistor ladder,8,12
+B4,Tipping bucket rain gauge,1,Rain,tipping bucket rain gauge sensor,Rainfall pulses; total and rate calculated in software,8,12
+C1,PM2.5/PM10 sensor (PMS5003 or PMS7003),1,Air Quality,PMS5003 PMS7003 laser dust sensor,AQI from particulate; UART; avoid MQ gas sensors,15,22
+C2,UV sensor (VEML6075),1,UV,VEML6075 UVA UVB module,UV Index via I2C,4,7
+C3,Lightning sensor (AS3935),1,Lightning,AS3935 lightning sensor module,Lightning detection and distance estimate,8,12
+C4,Waterproof ground temperature probe (DS18B20),2,Ground Temp,DS18B20 waterproof sensor,1-Wire; one ground probe + one spare,4,8
+D1,Weatherproof enclosure (IP65/IP66 junction box),1,Outdoor Hardware,IP65 waterproof junction box,For ESP32 and sensor boards,10,15
+D2,Cable gland kit (PG7/PG9 mixed),1,Outdoor Hardware,PG7 PG9 cable gland kit,Seals cable entries,3,5
+D3,Radiation shield for temp/humidity sensor,1,Outdoor Hardware,weather station radiation shield,Shields BME280 from sun,8,15
+D4,Mast clamps or U-bolts,1,Outdoor Hardware,mast clamp U bolt,Mount sensors to pole or mast,4,10
+E1,JST-XH connector kit (optional),1,Wiring,JST XH connector kit,Clean and serviceable wiring,5,10
+E2,Dupont jumper wire kit,1,Wiring,dupont jumper wires kit,Prototyping and testing,3,5
+E3,Perfboard or proto PCB,2,Wiring,prototype perfboard,Mount breakout boards,4,8
+E4,Resistor assortment,1,Wiring,resistor kit assortment,General electronics needs,2,4
+E5,4.7k ohm resistors,1,Wiring,4.7k resistor,DS18B20 pull-up resistors,1,2
+E6,10k ohm resistors,1,Wiring,10k resistor,Wind vane divider and misc,1,2
+E7,Capacitor kit (0.1uF and 10uF),1,Wiring,capacitor kit 0.1uF 10uF,Noise filtering optional,2,5
+E8,Outdoor-rated multi-core cable (2–4 core),1,Wiring,outdoor cable 2 core 4 core,For wind and rain sensors,6,15
+F1,microSD card (32–128GB),1,Indoor Base,micro sd card 64gb,Buy reputable brand; many fakes on AE,6,15
+F2,5V power supply (Pi and ESP32),1,Indoor Base,5V 3A power supply raspberry pi,Stable power prevents crashes,6,12
