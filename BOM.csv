@@ -22,8 +22,7 @@ E5,4.7k Ohm Resistors,1,https://www.aliexpress.com,1.50,1.50,196.50,DS18B20 pull
 E6,10k Ohm Resistors,1,https://www.aliexpress.com,1.50,1.50,198.00,Wind vane divider
 E7,Capacitor Kit (0.1uF + 10uF),1,https://www.aliexpress.com,3.00,3.00,201.00,Noise suppression
 E8,Outdoor-Rated Multi-Core Cable,1,https://www.aliexpress.com,10.00,10.00,211.00,Sensor cabling
-F1,PoE RTSP/ONVIF Outdoor Camera (1080p),1,https://www.aliexpress.com,50.00,50.00,261.00,H.264 required, no cloud
+F1,PoE RTSP/ONVIF Outdoor Camera (1080p),1,https://www.aliexpress.com,50.00,50.00,261.00,H.264 required no cloud
 F2,PoE Injector (802.3af),1,https://www.aliexpress.com,12.00,12.00,273.00,If switch not PoE
 F3,Outdoor Ethernet Cable (Cat6),1,https://www.aliexpress.com,12.00,12.00,285.00,Camera run
 F4,MicroSD Card 64GB (Pi),1,https://www.aliexpress.com,8.00,8.00,293.00,OS + data
-
