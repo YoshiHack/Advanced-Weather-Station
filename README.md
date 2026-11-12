@@ -22,6 +22,8 @@ This can calculate the distance of storms using lighting
 This is for detecting the ground temprature (Fahrenheit) and it can calculate if the rain will turn to ice on the ground
 ### 9. PoE RTSP/ONVIF Outdoor Camera (1080p)
 It will record in 1080p and H.264 codec and this is to send to the local weather meterologist
+### 10. A LoRa board (Heltec v3)
+To send the weather over radio I will have it set up with meshcore
 --
 ## Processing
 We will be using a Raspberry Pi 4 B. We were origonally going to use a Raspberry Pi Zero 2W but later realised it would'nt be strong enough so we switched
